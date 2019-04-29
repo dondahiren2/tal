@@ -15,7 +15,7 @@
 	} else {
 		mkdir($target_file,0755, true);
 	}
-  	// le aato khali php j chhe
+
 	
 	$image_name  = $_FILES[$file_name]['name'];
 	$tmp_name	 = $_FILES[$file_name]['tmp_name'];
@@ -53,8 +53,5 @@
 			$ans = 3;
 		}
 	} 
-	//echo $ans.'split_visiting'.substr($image_path,0,-6);
-	//hiren donda
-	//donda hiren
 	
 ?>
