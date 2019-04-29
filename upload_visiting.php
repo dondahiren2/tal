@@ -53,5 +53,5 @@
 			$ans = 3;
 		}
 	} 
-	echo $ans.'split_visiting'.substr($image_path,0,-6);
+	//echo $ans.'split_visiting'.substr($image_path,0,-6);
 ?>
