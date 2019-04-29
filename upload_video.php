@@ -8,7 +8,7 @@
 	$bucketName = bucket;
 	$IAM_KEY = awsAccessKey;
 	$IAM_SECRET = awsSecretKey;
- 
+
 	//hollaaaaaaaaaaaa
 	date_default_timezone_set('Asia/Kolkata');
 	$sdate = date("YmdHis");
