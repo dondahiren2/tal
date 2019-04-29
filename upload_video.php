@@ -8,7 +8,7 @@
 	$bucketName = bucket;
 	$IAM_KEY = awsAccessKey;
 	$IAM_SECRET = awsSecretKey;
-
+// ohh this is new s3 sample 
 	date_default_timezone_set('Asia/Kolkata');
 	$sdate = date("YmdHis");
 	$types = $_POST['type'];
