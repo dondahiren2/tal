@@ -8,7 +8,8 @@
 	$bucketName = bucket;
 	$IAM_KEY = awsAccessKey;
 	$IAM_SECRET = awsSecretKey;
-// ohh this is new s3 sample // not this
+ 
+	//hollaaaaaaaaaaaa
 	date_default_timezone_set('Asia/Kolkata');
 	$sdate = date("YmdHis");
 	$types = $_POST['type'];
@@ -78,7 +79,7 @@
 			echo 3;
 		}
 
-		/*if(move_uploaded_file($tmp_name, $target_filename)){
+		if(move_uploaded_file($tmp_name, $target_filename)){
 			$s3 = new S3(awsAccessKey, awsSecretKey);
 			if($s3->putObjectFile($target_filename, bucket, $target_filename, S3::ACL_PUBLIC_READ)){
 				unlink($target_filename);
@@ -88,11 +89,12 @@
 			}
 		} else {
 			echo 2;
-		}*/
+		}
 
 	} else {
 		echo 4;
 	}
+
 	// this function is done by mr. donda
 
 	if($i){
