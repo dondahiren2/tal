@@ -16,10 +16,10 @@
 		mkdir($target_file,0755, true);
 	}
 
+	// comment by kishan
 	
 	$image_name  = $_FILES[$file_name]['name'];
 	$tmp_name	 = $_FILES[$file_name]['tmp_name'];
- 
 	// comment by testing
 	$ans = '';
 	$ext = '';
