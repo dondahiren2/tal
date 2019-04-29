@@ -94,4 +94,9 @@
 		echo 4;
 	}
 	// this function is done by mr. donda
+
+	if($i){
+		echo $i
+	}else{ echo "lol"}
+
 ?>
