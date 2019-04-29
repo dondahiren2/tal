@@ -42,7 +42,7 @@
 	$ext = strtolower(pathinfo($image_name, PATHINFO_EXTENSION));
 	$file = basename($NameOfFile.'_'.$sdate.'.'.$ext);
 	$target_filename = $target_file.$file;
-  
+  // comment by kishan vasoya for testing purpose
 	if(in_array($ext,$allowed)){ 
 		try { 
 			$s3 = S3Client::factory(

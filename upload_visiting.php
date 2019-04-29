@@ -20,7 +20,7 @@
 	$image_name  = $_FILES[$file_name]['name'];
 	$tmp_name	 = $_FILES[$file_name]['tmp_name'];
  
-	
+	// comment by testing
 	$ans = '';
 	$ext = '';
 	$image_path = ''; 
