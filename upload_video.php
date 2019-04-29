@@ -93,5 +93,5 @@
 	} else {
 		echo 4;
 	}
-	
+	// this function is done by mr. donda
 ?>
